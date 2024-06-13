@@ -1,0 +1,119 @@
+.cuerpo_general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo_general_interno{
+    background-color: aqua;
+    width: 80%;
+}
+
+.cuerpo_general_hijo{
+    background-color: rgb(179, 206, 25);
+}
+/*seleccionador palabras*/
+.palabra-es{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto_sele{
+    margin-left: 10px;
+}
+/*fin seleccionador palabras*/
+/*contenedor imagenes*/
+.images_con{
+    padding: 15px;
+}
+.contenedor_images{
+    background-color: rgb(43, 137, 94);
+    width:50%;
+}
+.imagen__{
+    background-color: rgb(74, 78, 80);
+    width: 100%;
+    height: 300px;
+}
+.titulo_images{
+    background-color: rgb(33, 52, 37);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+.boton_ver{
+    background-color: rgb(236, 115, 75);
+}
+/*fin contenedor imagenes*/
+
+
+.button-container{
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+
+
+
+.padre__{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+/*parte video*/
+
+.video-container{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.custom-video {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        max-width: 1000px; /* Adjust the max-width as needed */
+        width: 100%; /* Adjust the width as needed */
+}
+.video_con{
+    width: 90%;
+}
+
+.contendor_hijo_video{
+    padding: 10px;
+    background-color: rgb(126, 9, 9);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.video-button{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(120, 130, 25);
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.contendor_generalvideo{
+    background-color: rgb(185, 86, 113);
+    width: 49%;
+    
+}
+
+
+
+.button-container button.active {
+    background-color: #007bff; /* Cambia el color de fondo según tu diseño */
+    color: #fff; /* Cambia el color del texto según tu diseño */
+  }
+.imagen_servid{
+    width: 250px;
+}
